@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="servicedescriptionandinfo.css">
+
+</head>
+<body>
+<main class="page">
+    <!-- PRODUCT DESCRIPTION -->
+    <section class="product card">
+      <img class="product-img" src="images/hotstone.png" alt="signatureservice">
+
+      <div class="product-info">
+        <h1 class="product-title">Hot Stone Massage</h1>
+        <p class="product-tagline">Melt away tension with the warmth of tranquility</p>
+
+        <p class="product-desc">
+         Indulge in deep relaxation with our Hot Stone Massage, a soothing therapy that combines 
+         gentle massage techniques with the healing warmth of smooth basalt stones. The heat penetrates 
+         deep into the muscles, easing stiffness, improving circulation, and melting away stress.
+
+
+        <div class="price-row">
+          <div class="price">₱SAMPLE PRICE</div>
+        </div>
+        <button class="buy-btn">BOOK SERVICE</button>
+      </div>
+    </section>
+
+    <!-- DATE PICKER (SEPARATE) -->
+    <section class="datepicker card" aria-labelledby="pickerHeading">
+      <h2 id="booking-information">Booking Information</h2>
+      <p class="small">Please enter your full name and select your preferred date. Available dates are weekdays only.</p>
+
+      <form id="dateForm" class="date-form">
+        <!-- NEW INPUT FIELD FOR FULL NAME -->
+        
+
+        <label for="demoDate">Pick a date</label>
+        <input id="demoDate" name="demoDate" type="date" required>
+
+        <label for="demoTime">Preferred time (optional)</label>
+        <input id="demoTime" name="demoTime" type="time">
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Save</button>
+          <button type="button" id="clearBtn" class="btn ghost">Clear</button>
+        </div>
+
+        <p id="chosen" class="chosen" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

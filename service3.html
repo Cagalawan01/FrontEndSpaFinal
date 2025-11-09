@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="servicedescriptionandinfo.css">
+
+</head>
+<body>
+<main class="page">
+    <!-- PRODUCT DESCRIPTION -->
+    <section class="product card">
+      <img class="product-img" src="images/reflexology.png" alt="signatureservice">
+
+      <div class="product-info">
+        <h1 class="product-title">Reflexology</h1>
+        <p class="product-tagline">Healing starts from the sole</p>
+
+        <p class="product-desc">
+          Discover the art of balance and wellness through our Reflexology Massage. 
+          This ancient healing practice focuses on pressure points in the feet that correspond to 
+          different parts of the body, helping to relieve stress, improve energy flow, and promote 
+          overall harmony.
+
+
+        <div class="price-row">
+          <div class="price">₱SAMPLE PRICE</div>
+        </div>
+        <button class="buy-btn">BOOK SERVICE</button>
+      </div>
+    </section>
+
+    <!-- DATE PICKER (SEPARATE) -->
+    <section class="datepicker card" aria-labelledby="pickerHeading">
+      <h2 id="booking-information">Booking Information</h2>
+      <p class="small">Please enter your full name and select your preferred date. Available dates are weekdays only.</p>
+
+      <form id="dateForm" class="date-form">
+        <!-- NEW INPUT FIELD FOR FULL NAME -->
+        
+
+        <label for="demoDate">Pick a date</label>
+        <input id="demoDate" name="demoDate" type="date" required>
+
+        <label for="demoTime">Preferred time (optional)</label>
+        <input id="demoTime" name="demoTime" type="time">
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Save</button>
+          <button type="button" id="clearBtn" class="btn ghost">Clear</button>
+        </div>
+
+        <p id="chosen" class="chosen" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

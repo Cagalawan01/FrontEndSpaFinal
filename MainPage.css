@@ -245,8 +245,8 @@ body {
 }
 
 .contact-form button {
-  background: #b48a00;
-  color: white;
+  background: #539417;
+  color: white; 
   border: none;
   padding: 12px 20px;
   border-radius: 4px;
@@ -255,5 +255,5 @@ body {
 }
 
 .contact-form button:hover {
-  background: #8a6d00;
+  background: #3d6d10;  
 }

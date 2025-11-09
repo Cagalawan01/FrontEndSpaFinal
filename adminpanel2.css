@@ -16,7 +16,7 @@ body {
 /* Sidebar */
 .sidebar {
   width: 220px;
-  background: #cad4ac;
+  background: #6db3c5;
   color: white;
   height: 100vh;
   padding: 20px;
@@ -48,7 +48,7 @@ body {
 }
 
 .sidebar ul li a:hover {
-  background: #a4ac8b;
+  background: #4c7f8b;
 }
 
 /* Main Content */
@@ -89,7 +89,7 @@ body {
 .card h3 {
   margin-bottom: 10px;
   font-size: 18px;
-  color: #5c8d89;
+  color: #6db3c5;
 }
 
 .card p {
@@ -107,7 +107,7 @@ body {
 
 .table-section h2 {
   margin-bottom: 15px;
-  color: #a4ac8b;
+  color: #6db3c5;
 }
 
 table {

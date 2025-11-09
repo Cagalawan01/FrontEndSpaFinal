@@ -22,9 +22,15 @@
                 <input type="text" name="email" id="email" autocomplete="off" required>
                 </div>
 
+                <div class="field input">
+                <label for="password">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="09XXXXXXXXX" pattern="[0-9]{11}" maxlength="11" 
+                 inputmode="numeric" required>                
+                </div>
+
                  <div class="field input">
                 <label for="password">Password</label>
-                <input type="text" name="password" id="password" autocomplete="off" required>
+                <input type="text" name="password" id="password"  autocomplete="off" required>
                 </div>
 
                  <div class="field">
@@ -36,5 +42,7 @@
             </form>
         </div>
     </div>
+
+    <script src="registerform.js"></script>
 </body>
 </html>

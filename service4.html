@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="servicedescriptionandinfo.css">
+
+</head>
+<body>
+<main class="page">
+    <!-- PRODUCT DESCRIPTION -->
+    <section class="product card">
+      <img class="product-img" src="images/Deeptissuefootmassage.png" alt="signatureservice">
+
+      <div class="product-info">
+        <h1 class="product-title">Deep Tissue Foot Massage</h1>
+        <p class="product-tagline">Relieve, Restore and Revitalize</p>
+
+        <p class="product-desc">
+          Experience ultimate relief with our Deep Tissue Foot Massage, designed to target tension 
+          deep within your muscles and pressure points. Using slow, firm strokes and specialized 
+          techniques, this treatment eases chronic pain, improves circulation, and restores natural 
+          balance to tired feet. Perfect for those who stand all day, athletes, or anyone seeking a 
+          powerful rejuvenation from sole to soul.
+
+
+        <div class="price-row">
+          <div class="price">₱SAMPLE PRICE</div>
+        </div>
+        <button class="buy-btn">BOOK SERVICE</button>
+      </div>
+    </section>
+
+    <!-- DATE PICKER (SEPARATE) -->
+    <section class="datepicker card" aria-labelledby="pickerHeading">
+      <h2 id="booking-information">Booking Information</h2>
+      <p class="small">Please enter your full name and select your preferred date. Available dates are weekdays only.</p>
+
+      <form id="dateForm" class="date-form">
+        <!-- NEW INPUT FIELD FOR FULL NAME -->
+        
+
+        <label for="demoDate">Pick a date</label>
+        <input id="demoDate" name="demoDate" type="date" required>
+
+        <label for="demoTime">Preferred time (optional)</label>
+        <input id="demoTime" name="demoTime" type="time">
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Save</button>
+          <button type="button" id="clearBtn" class="btn ghost">Clear</button>
+        </div>
+
+        <p id="chosen" class="chosen" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

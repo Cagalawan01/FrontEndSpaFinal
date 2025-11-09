@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="servicedescriptionandinfo.css">
+
+</head>
+<body>
+<main class="page">
+    <!-- PRODUCT DESCRIPTION -->
+    <section class="product card">
+      <img class="product-img" src="images/footsoak.png" alt="signatureservice">
+
+      <div class="product-info">
+        <h1 class="product-title">Aromatherapy Foot Soak</h1>
+        <p class="product-tagline">Breathe. Soak. Let tranquility begin</p>
+
+        <p class="product-desc">
+         Immerse your senses in pure relaxation with our Aromatherapy Foot Soak. A soothing blend of 
+         warm water, essential oils, and natural salts works to soften the skin, ease tension, and calm 
+         the mind. The gentle aromas of lavender, eucalyptus, and peppermint create a serene atmosphere 
+         that melts away stress while rejuvenating tired feet.
+
+
+        <div class="price-row">
+          <div class="price">₱SAMPLE PRICE</div>
+        </div>
+        <button class="buy-btn">BOOK SERVICE</button>
+      </div>
+    </section>
+
+    <!-- DATE PICKER (SEPARATE) -->
+    <section class="datepicker card" aria-labelledby="pickerHeading">
+      <h2 id="booking-information">Booking Information</h2>
+      <p class="small">Please enter your full name and select your preferred date. Available dates are weekdays only.</p>
+
+      <form id="dateForm" class="date-form">
+        <!-- NEW INPUT FIELD FOR FULL NAME -->
+        
+
+        <label for="demoDate">Pick a date</label>
+        <input id="demoDate" name="demoDate" type="date" required>
+
+        <label for="demoTime">Preferred time (optional)</label>
+        <input id="demoTime" name="demoTime" type="time">
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Save</button>
+          <button type="button" id="clearBtn" class="btn ghost">Clear</button>
+        </div>
+
+        <p id="chosen" class="chosen" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

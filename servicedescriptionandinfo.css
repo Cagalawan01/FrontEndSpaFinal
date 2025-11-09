@@ -1,7 +1,7 @@
 /* ---------- GENERAL PAGE STYLING ---------- */
 body {
   font-family: Arial, sans-serif;
-background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);  margin: 0;
+background-color: #ccc;
   padding: 20px;
   color: #222;
 }

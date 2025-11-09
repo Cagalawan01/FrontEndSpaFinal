@@ -38,8 +38,7 @@
 
       <form id="dateForm" class="date-form">
         <!-- NEW INPUT FIELD FOR FULL NAME -->
-        <label for="clientName">Full Name</label>
-        <input id="clientName" name="clientName" type="text" placeholder="Enter your full name" required>
+        
 
         <label for="demoDate">Pick a date</label>
         <input id="demoDate" name="demoDate" type="date" required>
@@ -60,7 +59,6 @@
   <script>
     const demoDate = document.getElementById('demoDate');
     const demoTime = document.getElementById('demoTime');
-    const clientName = document.getElementById('clientName');
     const chosen = document.getElementById('chosen');
     const form = document.getElementById('dateForm');
     const clearBtn = document.getElementById('clearBtn');
@@ -82,15 +80,12 @@
 
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      if (!clientName.value.trim()) {
-        alert('Please enter your full name.');
-        return;
-      }
+      
       if (!demoDate.value) {
         alert('Please pick a date.');
         return;
       }
-      alert('Thank you, ' + clientName.value + '! Your date (' + chosen.textContent + ') has been saved.');
+      alert('Your date (' + chosen.textContent + ') has been saved.');
     });
 
     clearBtn.addEventListener('click', () => {
